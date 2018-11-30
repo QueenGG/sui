@@ -3,6 +3,7 @@ package com.bw.myweidu.ui.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String s = text_is.getText().toString();
-
+                Log.d("MainActivity", "log");
             }
         });
 
